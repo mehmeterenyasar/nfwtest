@@ -124,8 +124,8 @@ table {
 }
 
 @font-face {
-  font-family: "coder";
-  src: local("coder"), url(font.woff) format("woff");
+  font-family: "Wess";
+  src: local("Wess"), url(CarnevaleeFreakshow.ttf), format("ttf");
 }
 
 body {
@@ -143,8 +143,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Wess", sans-serif;
 }
 
 body::-webkit-scrollbar {
