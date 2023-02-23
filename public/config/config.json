@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x9741227c023431f87a58fc4e553fbd21ffac5f0a",
+  "SCAN_LINK": "https://mumbai.polygonscan.com/tx/0x49b1d1a164b9c7f8eb3c76b5f2d5453eddf4c7248554f40704c11ebe948c4a3a",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "NonFungibleWest-Test",
+  "SYMBOL": "NFWT",
+  "MAX_SUPPLY": 992,
+  "WEI_COST": 4000000000000000000,
+  "DISPLAY_COST": 4,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/nonfungiblewest-test",
+  "SHOW_BACKGROUND": true
+}
