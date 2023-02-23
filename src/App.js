@@ -18,7 +18,6 @@ export const StyledButton = styled.button`
   color: var(--secondary-text);
   width: 100px;
   cursor: pointer;
-  font-family:'Wess', sans-serif;
   box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
@@ -41,7 +40,6 @@ export const StyledRoundButton = styled.button`
   width: 30px;
   height: 30px;
   cursor: pointer;
-  font-family:'Wess', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -200,7 +198,7 @@ function App() {
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "var(--primary)"}}
+        style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
@@ -215,7 +213,6 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
-                   font-family:'Wess', 'sans-serif',
               backgroundColor: "var(--accent)",
               padding: 24,
               borderRadius: 24,
@@ -225,7 +222,6 @@ function App() {
           >
             <s.TextTitle
               style={{
-                     font-family:'Wess', 'sans-serif',
                 textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
