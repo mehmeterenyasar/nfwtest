@@ -1,4 +1,8 @@
 :root {
+  @font-face {
+	font-family: 'Wess';
+	src: url("../fonts/CarnevaleeFreakshow.ttf");
+  }
   --primary: #ebc908;
   --primary-text: #1a1a1a;
   --secondary: #ff1dec;
