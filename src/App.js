@@ -200,7 +200,7 @@ function App() {
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "var(--primary)" font-family:'Wess', sans-serif;}}
+        style={{ padding: 24, backgroundColor: "var(--primary)", font-family:'Wess', 'sans-serif'}}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
@@ -215,7 +215,7 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
-                   font-family:'Wess', sans-serif;
+                   font-family:'Wess', 'sans-serif',
               backgroundColor: "var(--accent)",
               padding: 24,
               borderRadius: 24,
@@ -225,7 +225,7 @@ function App() {
           >
             <s.TextTitle
               style={{
-                     font-family:'Wess', sans-serif;
+                     font-family:'Wess', 'sans-serif',
                 textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
